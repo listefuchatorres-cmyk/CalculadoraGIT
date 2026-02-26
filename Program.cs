@@ -17,7 +17,8 @@ namespace CalculadoraGit
             while (continuar)
             {
                 Console.Clear();
-                
+
+                Console.WriteLine("=== Bienvenida a la Calculadora Git del grupo ===");
                 Console.WriteLine("=== Calculadora Git ===");
 
                 Console.WriteLine("Ingrese el primer número:");
@@ -49,6 +50,20 @@ namespace CalculadoraGit
                         Console.WriteLine("No se puede dividir para cero");
                         resultado = 0;
                     }
+                else if (opcion == "2")
+                {
+                    resultado = num1 - num2;
+                }
+
+
+
+                if (opcion == "1")
+                {
+                    resultado = num1 + num2;
+                }
+                else if (opcion == "3")
+                {
+                    resultado = num1 * num2;
                 }
                 Console.WriteLine("Resultado: " + resultado);
                 Console.WriteLine("¿Desea continuar? (S/N)");
