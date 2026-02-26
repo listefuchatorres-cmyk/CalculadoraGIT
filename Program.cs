@@ -37,8 +37,19 @@ namespace CalculadoraGit
                 double resultado = 0;
 
                 // Aquí cada integrante agregará su operación
-                
 
+                else if (opcion == "4")
+                {
+                    if (num2 != 0)
+                    {
+                        resultado = num1 / num2;
+                    }
+                    else
+                    {
+                        Console.WriteLine("No se puede dividir para cero");
+                        resultado = 0;
+                    }
+                }
                 Console.WriteLine("Resultado: " + resultado);
                 Console.WriteLine("¿Desea continuar? (S/N)");
                 string resp = Console.ReadLine();
