@@ -37,7 +37,10 @@ namespace CalculadoraGit
                 double resultado = 0;
 
                 // Aquí cada integrante agregará su operación
-                
+                if (opcion == "1")
+                {
+                    resultado = num1 + num2;
+                }
 
                 Console.WriteLine("Resultado: " + resultado);
                 Console.WriteLine("¿Desea continuar? (S/N)");
