@@ -50,7 +50,10 @@ namespace CalculadoraGit
                 {
                     resultado = num1 + num2;
                 }
-
+                else if (opcion == "3")
+                {
+                    resultado = num1 * num2;
+                }
                 Console.WriteLine("Resultado: " + resultado);
                 Console.WriteLine("¿Desea continuar? (S/N)");
                 string resp = Console.ReadLine();
