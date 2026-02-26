@@ -17,7 +17,8 @@ namespace CalculadoraGit
             while (continuar)
             {
                 Console.Clear();
-                
+
+                Console.WriteLine("=== Bienvenida a la Calculadora Git del grupo ===");
                 Console.WriteLine("=== Calculadora Git ===");
 
                 Console.WriteLine("Ingrese el primer número:");
